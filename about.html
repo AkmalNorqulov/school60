@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>60 - MAKTAB</title>
+
+    <link rel="icon" href="images/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <!-- Assets -->
+    <link rel="stylesheet" href="assets/footer.css">
+    <link rel="stylesheet" href="assets/contact.css">
+    <link rel="stylesheet" href="assets/nav.css">
+    <link rel="stylesheet" href="assets/links.css">
+    <link rel="stylesheet" href="assets/about.css">
+
+    <!-- AOS scroll animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar shadow navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand me-auto" href="index.html">School <br> <span>60</span></a>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Sch60l</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-0">
+                        <li class="nav-item">
+                            <button class="nav-item-btn" data-bs-dismiss="offcanvas">
+                                <a class="nav-link mx-lg-2" href="#about_school"><i
+                                        class="fa-regular fa-address-card me-1"></i> XAQIDA</a>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button data-bs-dismiss="offcanvas" class="nav-item-btn">
+                                <a class="nav-link mx-lg-2 fw-5" href="#teachers"><i
+                                        class="fa-solid fa-user-tie me-1 "></i> MA'MURIYAT</a>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-item-btn" data-bs-dismiss="offcanvas">
+                                <a class="nav-link mx-lg-2" href="#courses"><i
+                                        class="fa-solid fa-person-chalkboard me-1"></i> KURSLAR</a>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-item-btn" data-bs-dismiss="offcanvas">
+                                <a class="nav-link mx-lg-2" href="#contact "><i
+                                        class="fa-regular fa-address-book me-1"></i>
+                                    ALOQA</a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+
+
+    <!-- Contact -->
+    <section id="contact" class="my-3 py-5">
+        <div class="container px-3">
+            <div class="row"
+                style="border: 3px solid #e4e4e9; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 10px;">
+                <div class="col-md-6 p-3 mb-2">
+                    <h1 class="text-center text-success mt-1">60 - Maktab</h1>
+                    <p class="text-center">Biz bilan bog'laning</p>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">To'liq Ism: </label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email manzil: </label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Telefon Raqam: </label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="+998991234567">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Xabar qoldiring: </label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <select class="form-select mb-3" aria-label="Default select example">
+                        <option selected>Xizmatni tanlang</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <button class="btn btn-primary" type="submit">Jo'natish</button>
+                </div>
+                <div class="col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1081.074205675103!2d68.40514335516195!3d39.96957417221584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b24f970d500c67%3A0xb8a3f65b4e32a262!2s60-Maktab!5e0!3m2!1sru!2s!4v1717069526719!5m2!1sru!2s"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div id="contact_info" class="row mt-5">
+                <div class="col-lg-3 mb-sm-3 col-6 d-flex justify-content-center align-items-center flex-column">
+                    <img class="d-block w-25 mb-2" src="images/location_icon.png" alt="">
+                    <p class="text-center">Zomin tumani, Xalqobod MFY, <br>Mustaqillik ko'chasi</p>
+                </div>
+                <div class="col-lg-3 mb-sm-3 col-6 d-flex justify-content-center align-items-center flex-column">
+                    <img class="d-block w-25 mb-2" src="images/phone_icon.png" alt="">
+                    <p>+998901116669 <br> +998943408777</p>
+                </div>
+                <div class="col-lg-3 mb-sm-3 col-6 d-flex justify-content-center align-items-center flex-column">
+                    <img class="d-block w-25 mb-2" src="images/email_icon.png" alt="">
+                    <p><a href="" type="email">ergashevm070@gmail.com</a></p>
+                </div>
+                <div class="col-lg-3 mb-sm-3 col-6 d-flex justify-content-center align-items-center flex-column">
+                    <img class="d-block w-25 mb-2" src="images/website_icon.png" alt="">
+                    <p><a href="https://sch60l.uz">www.sch60l.uz</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact -->
+
+
+    <!-- Footer -->
+    <div class="footer-basic bg-dark text-white">
+        <footer>
+            <div class="social">
+                <a target="_blank" href=""><i class="fa-brands fa-instagram"></i></a>
+                <a target="_blank" href="https://t.me/zomin_60maktab"><i class="fa-brands fa-telegram"></i></a>
+                <a target="_blank" href=""><i class="fa-brands fa-youtube"></i></a>
+                <a target="_blank" href=""><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Bosh Sahifa</a></li>
+                <li class="list-inline-item"><a href="#about_school">Xaqida</a></li>
+                <li class="list-inline-item"><a href="#teachers">Mamuriyat</a></li>
+                <li class="list-inline-item"><a href="#courses">Kurslar</a></li>
+                <li class="list-inline-item"><a href="login.html">Kirish</a></li>
+                <li class="list-inline-item"><a href="#contact">Aloqa</a></li>
+            </ul>
+            <p class="copyright">Sch60l - 60 Maktab © 2024</p>
+        </footer>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS scroll animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Assets -->
+    <script src="js/aos_init.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+    #contact .col-md-6:nth-child(2) {
+        height: 40vh;
+    }
+}
